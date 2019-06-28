@@ -10,6 +10,9 @@
 		0C0FA03A22C55E16001BA1F5 /* Representative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0FA03922C55E16001BA1F5 /* Representative.swift */; };
 		0C0FA03C22C560C8001BA1F5 /* RepresentativeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0FA03B22C560C8001BA1F5 /* RepresentativeController.swift */; };
 		0C0FA03E22C5753F001BA1F5 /* StateListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0FA03D22C5753F001BA1F5 /* StateListTableViewController.swift */; };
+		0C0FA04022C57619001BA1F5 /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0FA03F22C57619001BA1F5 /* States.swift */; };
+		0C0FA04222C57667001BA1F5 /* StatesDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0FA04122C57667001BA1F5 /* StatesDetailTableViewController.swift */; };
+		0C0FA04422C5771F001BA1F5 /* RepresentativeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0FA04322C5771F001BA1F5 /* RepresentativeTableViewCell.swift */; };
 		0CD8BAB822C555D6006E7120 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD8BAB722C555D6006E7120 /* AppDelegate.swift */; };
 		0CD8BABD22C555D6006E7120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD8BABB22C555D6006E7120 /* Main.storyboard */; };
 		0CD8BABF22C555D7006E7120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD8BABE22C555D7006E7120 /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 		0C0FA03922C55E16001BA1F5 /* Representative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Representative.swift; sourceTree = "<group>"; };
 		0C0FA03B22C560C8001BA1F5 /* RepresentativeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentativeController.swift; sourceTree = "<group>"; };
 		0C0FA03D22C5753F001BA1F5 /* StateListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateListTableViewController.swift; sourceTree = "<group>"; };
+		0C0FA03F22C57619001BA1F5 /* States.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
+		0C0FA04122C57667001BA1F5 /* StatesDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesDetailTableViewController.swift; sourceTree = "<group>"; };
+		0C0FA04322C5771F001BA1F5 /* RepresentativeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentativeTableViewCell.swift; sourceTree = "<group>"; };
 		0CD8BAB422C555D6006E7120 /* Representatives27.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Representatives27.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD8BAB722C555D6006E7120 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CD8BABC22C555D6006E7120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				0C0FA03D22C5753F001BA1F5 /* StateListTableViewController.swift */,
+				0C0FA04122C57667001BA1F5 /* StatesDetailTableViewController.swift */,
 			);
 			path = "VIEW CONTROLLER";
 			sourceTree = "<group>";
@@ -59,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				0C0FA03922C55E16001BA1F5 /* Representative.swift */,
+				0C0FA03F22C57619001BA1F5 /* States.swift */,
 			);
 			path = MODEL;
 			sourceTree = "<group>";
@@ -113,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				0CD8BACA22C55661006E7120 /* STORYBOARDS */,
+				0C0FA04322C5771F001BA1F5 /* RepresentativeTableViewCell.swift */,
 			);
 			path = VIEWS;
 			sourceTree = "<group>";
@@ -197,7 +206,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C0FA04422C5771F001BA1F5 /* RepresentativeTableViewCell.swift in Sources */,
+				0C0FA04022C57619001BA1F5 /* States.swift in Sources */,
 				0C0FA03A22C55E16001BA1F5 /* Representative.swift in Sources */,
+				0C0FA04222C57667001BA1F5 /* StatesDetailTableViewController.swift in Sources */,
 				0C0FA03E22C5753F001BA1F5 /* StateListTableViewController.swift in Sources */,
 				0C0FA03C22C560C8001BA1F5 /* RepresentativeController.swift in Sources */,
 				0CD8BAB822C555D6006E7120 /* AppDelegate.swift in Sources */,
